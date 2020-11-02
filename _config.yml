@@ -28,7 +28,7 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -52,7 +52,7 @@ topics:
     image_url: https://jacobsschool.ucsd.edu/sites/default/files/groups/cosmos/img/homepage/banner_2.jpg
 
   - name: Summer Research 
-    web_url: https://jacobsschool.ucsd.edu/cosmos
+    web_url: https://www.summer.ucsb.edu/pre-college/summer-research-academies-sra
     image_url: https://jacobsschool.ucsd.edu/cosmos
 
   - name: Other Activities
