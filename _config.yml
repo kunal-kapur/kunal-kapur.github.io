@@ -60,6 +60,9 @@ topics:
     image_url: https://jacobsschool.ucsd.edu/cosmos
 
   - name: Pictures
+     web_url: https://github.com/topics/sass
+     image_url: img/IMG_8820.jpg
+  - name: Pictures
     web_url: https://github.com/topics/sass
     image_url: img/IMG_8820.jpg
 
