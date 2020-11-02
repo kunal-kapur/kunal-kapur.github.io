@@ -53,7 +53,7 @@ topics:
 
   - name: Summer Research 
     web_url: https://www.summer.ucsb.edu/pre-college/summer-research-academies-sra
-    image_url: https://jacobsschool.ucsd.edu/cosmos
+    image_url: img/SERA_Banner.jpg
 
   - name: Robotics
     web_url: https://www.summer.ucsb.edu/pre-college/summer-research-academies-sra
@@ -62,6 +62,7 @@ topics:
   - name: Pictures
      web_url: https://github.com/topics/sass
      image_url: img/IMG_8820.jpg
+     
   - name: Pictures
     web_url: https://github.com/topics/sass
     image_url: img/IMG_8820.jpg
