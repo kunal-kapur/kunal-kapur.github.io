@@ -1,1 +1,93 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="script.js" defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Kapur - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kunal Kapur</h1>
+    </header>
+
+    <section class="links">
+        <img onclick="redirectToPage('https://github.com/kunal-kapur')" src="images/github.png" alt="">
+        <img onclick="redirectToPage('https://www.linkedin.com/in/kunal-kapur1/')" src="images/linkedIn.png" alt="">
+        <img onclick="redirectToPage('mailto:kunalkapur888@gmail.com')" src="images/mail.png" alt="">
+    </section>
+
+    <section>
+        <p>Hi there</p>
+        <p>I'm currently a student at Purdue University studying computer science and data science. 
+            I have an interest in different facets of machine learning, more specifically deep learning 
+            and methods of achieving equivariance within such models.
+        </p>
+        <p>Some of my hobbies include cooking, watching basketball, and making puzzles</p>
+    </section>
+    
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div>
+        <img src="images/python.png">
+        <img src="images/torch.png">
+        <img src="images/pandas.png">
+        <img src="images/react.png">
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div>
+        <h3>Purdue University - December 2024</h3>
+        <h3>Relevant courses:</h3>
+        <div class="classes">
+        <ul>
+            <li>Foundations of Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>Machine Learning Theory</li>
+        </ul>
+        <ul>
+            <li>Data Mining and Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Time Series</li>
+        </ul>
+        <ul>
+            <li>Analysis of Algorithms</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Systems Programming</li>
+          </ul>
+        </div>
+    </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div>
+            <div class="project" onclick="redirectToPage('https://github.com/kunal-kapur/image_identification')">Mojify Me </div>
+            <div class="project" onclick="redirectToPage('https://github.com/kunal-kapur/Guess_The_Song')">Guess the Song</div>
+            <div class="project" onclick="redirectToPage('https://github.com/kunal-kapur/Twitter_analysis')">Celebrity Sentiment</div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <img src="images/statefarm.png">
+        <img src="images/presto.png">
+        <img src="images/purdue.png">
+    </section>
+
+    <div class="pdf-container">
+        <embed src="Kunal_Kapur_Resume.pdf" type="application/pdf" width="100%" height="100%">
+    </div>
+    <footer>
+        <p>&copy; 2024 Kunal Kapur. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
