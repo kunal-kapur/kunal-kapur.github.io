@@ -5,17 +5,32 @@ body{
 }
 
 header {
+
     background-color: #333;
     color: #fff;
     text-align: center;
     width: 100%;
     position: fixed;
-
     top: 0 !important;
     left: 0 !important;
     margin: 0 !important; 
-   
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header a {
+    align-self: center;
+    color: #fff;
+    font-size: 130%;
+    
+
+}
+header a:hover{
+    color: rgb(243, 210, 119);
+    transition: ease 0.6s;
+    cursor: pointer;
 }
 
 section {
