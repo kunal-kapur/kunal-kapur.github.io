@@ -63,6 +63,8 @@ h2 {
 .links img:hover {
     background-color: rgb(255, 243, 178);
     transition: ease 0.8s;
+    cursor: pointer;
+    
 
 }
 
